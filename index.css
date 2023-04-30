@@ -1,0 +1,39 @@
+.intro{
+    background-color: rgb(255, 255, 255);
+    height: 585px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+span{
+    color: red;
+}
+body{
+    background-color: rgb(145, 143, 143);
+}
+.loginBtn{
+  border-radius: 30px;
+  background-color: #330044;
+  width: 330px;
+}
+.forgot{
+  text-decoration: none;
+}
+form{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.slide{
+    background-color: black;
+    height: 585px;
+}
+.right-div{
+    border-left: solid 2px #330044;
+    padding: 0px;
+}
+.top{
+    width: 100px;
+    height: 30px;
+}
+img{
+    width: 150px;
+    height: 500px;
+}
