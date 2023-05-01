@@ -35,25 +35,35 @@
                   </div>
                 </div>
                 <div class="col-5 right-div">
+                  <div class="alert alert-danger" role="alert" id="alert">
+                    A simple primary alert—check it out!
+                  </div>
                   <form action="" class="form">
                     <h3 style="color: #084cb8">LOGIN</h3>
                     <label for="" class="form-label mt-3" style="color: #084cb8"
                       >User Name/Email <span>*</span></label
                     >
                     <input
-                      type="text"
+                      type="email"
                       class="form-control"
-                      style="border-radius: 30px"
+                      placeholder="example@gmail.com"
+                      id="email-input"
                     />
                     <label for="" class="form-label mt-2" style="color: #084cb8"
                       >Password <span>*</span></label
                     >
-                    <input
-                      type="text"
-                      class="form-control"
-                      style="border-radius: 30px"
-                    />
-                    <button
+                     <div class="input-group">
+                        <input
+                        type="password"
+                        class="form-control"
+                        id="password-input"
+                        placeholder="enter your password"
+                      />
+                      <div class="input-group-prepend">
+                        <span class="input-group-text" id="eye" onclick="show()"><i class="fa-solid fa-eye-slash" style="color: #330044;"></i></span>
+                       </div>
+                     </div>
+                    <div
                       class="btn mt-3 loginBtn btn-block"
                       style="
                         border-radius: 30px;
@@ -62,9 +72,10 @@
                         color: white;
                         
                       "
+                      onclick="frontValidation()";
                     >
                       SIGN UP  
-                    </button>
+                    </div>
                     <a href="#" class="mt-2 forgot" style="color: #084cb8"
                       >Forgot password?</a
                     >

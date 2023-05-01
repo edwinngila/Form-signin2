@@ -18,7 +18,7 @@ body{
   text-decoration: none;
 }
 form{
-    margin-top: 40px;
+    margin-top: 80px;
     margin-left: 20px;
 }
 .slide{
@@ -36,4 +36,17 @@ form{
 img{
     width: 150px;
     height: 500px;
+}
+#eye{
+    padding: 10px;
+    border-radius: 0px;
+    background-color: white;
+    cursor: pointer;
+}
+#alert{
+    height: 50px;
+    width: 400px;
+    padding: 10px;
+    display: none;
+    position: absolute;
 }
